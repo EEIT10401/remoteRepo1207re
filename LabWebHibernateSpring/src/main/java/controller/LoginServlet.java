@@ -19,8 +19,8 @@ import model.CustomerService;
 @WebServlet(
 		urlPatterns={"/secure/login.controller"}
 )
-public class LoginServlet extends HttpServlet { 
-	private CustomerService customerService;
+public class LoginServlet extends HttpServlet {
+	private CustomerService customerService;   
 	@Override
 	public void init() throws ServletException {
 		ApplicationContext context = (ApplicationContext)
