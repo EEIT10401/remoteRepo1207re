@@ -30,6 +30,7 @@ public class SpringJavaConfiguration {
 			e.printStackTrace();
 			throw new ExceptionInInitializerError(e);
 		}
+
 	}
 
 	@Bean
@@ -46,3 +47,4 @@ public class SpringJavaConfiguration {
 		return builder.buildSessionFactory();
 	}
 }
+

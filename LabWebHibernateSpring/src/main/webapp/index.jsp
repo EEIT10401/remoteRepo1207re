@@ -6,9 +6,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
+</head>     
+<body>
 </head>
 <body>
 
+>>>>>>> branch 'master' of https://github.com/EEIT10401/RemoteRepo1207.git
+>>>>>>> branch 'master' of https://github.com/EEIT10401/RemoteRepo1207.git
 <h3>Welcome ${user.email}</h3>
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>

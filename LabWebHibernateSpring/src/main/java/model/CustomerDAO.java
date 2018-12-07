@@ -1,5 +1,5 @@
-  package model;
 
+  package model;
 
 public interface CustomerDAO {
 	public abstract CustomerBean findByPrimaryKey(String custid);
