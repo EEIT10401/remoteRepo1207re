@@ -17,7 +17,11 @@ public class CustomerDAOHibernate implements CustomerDAO {
 	
 	public Session getSession() {
 		return this.sessionFactory.getCurrentSession();
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> branch 'master' of https://github.com/EEIT10401/RemoteRepo1207.git
 
 	@Override
 	public CustomerBean findByPrimaryKey(String custid) {

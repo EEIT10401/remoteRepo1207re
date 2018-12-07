@@ -30,7 +30,11 @@ public class SpringJavaConfiguration {
 			e.printStackTrace();
 			throw new ExceptionInInitializerError(e);
 		}
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> branch 'master' of https://github.com/EEIT10401/RemoteRepo1207.git
 
 	@Bean
 	public SessionFactory sessionFactory() {

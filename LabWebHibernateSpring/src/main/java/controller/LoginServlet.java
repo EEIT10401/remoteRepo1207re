@@ -16,11 +16,19 @@ import org.springframework.web.context.WebApplicationContext;
 
 import model.CustomerBean;
 import model.CustomerService;
+<<<<<<< HEAD
 @WebServlet(       
 		urlPatterns={"/secure/login.controller"}
 )
 public class LoginServlet extends HttpServlet {
 	private CustomerService customerService;
+=======
+@WebServlet(
+		urlPatterns={"/secure/login.controller"}
+)
+public class LoginServlet extends HttpServlet {
+	private CustomerService customerService;   
+>>>>>>> branch 'master' of https://github.com/EEIT10401/RemoteRepo1207.git
 	@Override
 	public void init() throws ServletException {
 		ApplicationContext context = (ApplicationContext)
