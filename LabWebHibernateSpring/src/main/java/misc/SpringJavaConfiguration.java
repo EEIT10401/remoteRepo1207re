@@ -31,6 +31,8 @@ public class SpringJavaConfiguration {
 			throw new ExceptionInInitializerError(e);
 		}
 	}
+	
+	
 
 	@Bean
 	public SessionFactory sessionFactory() {
