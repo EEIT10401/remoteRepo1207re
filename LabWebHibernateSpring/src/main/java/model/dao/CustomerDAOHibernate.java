@@ -18,6 +18,9 @@ public class CustomerDAOHibernate implements CustomerDAO {
 	public Session getSession() {
 		return this.sessionFactory.getCurrentSession();
 	}
+	
+	
+	
 
 	@Override
 	public CustomerBean findByPrimaryKey(String custid) {
