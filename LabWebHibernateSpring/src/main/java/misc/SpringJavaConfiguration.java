@@ -46,3 +46,6 @@ public class SpringJavaConfiguration {
 		return builder.buildSessionFactory();
 	}
 }
+
+	
+
