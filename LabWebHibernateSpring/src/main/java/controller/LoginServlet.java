@@ -16,7 +16,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import model.CustomerBean;
 import model.CustomerService;
-@WebServlet(
+@WebServlet(    
 		urlPatterns={"/secure/login.controller"}
 )
 public class LoginServlet extends HttpServlet {
